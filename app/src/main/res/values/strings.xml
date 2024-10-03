@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">photoquest</string>
+    <string name="Home">home</string>
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="PhotoQuest">Photo Quest</string>
+</resources>
