@@ -15,4 +15,5 @@
     <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
     <string name="confirm_logout">Confirm logout</string>
     <string name="search_discover">Search, Discover!!</string>
+    <string name="unsplash_api_key">YOUR_API_KEY</string>
 </resources>
