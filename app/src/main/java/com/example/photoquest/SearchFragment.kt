@@ -20,7 +20,7 @@ import retrofit2.Response
 
 class SearchFragment : Fragment() {
 
-    private val accessKey = "ACCESS_KEY"
+    private val accessKey = "unsplash_api_key"
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: PhotosAdapter
     private lateinit var searchEditText: EditText
