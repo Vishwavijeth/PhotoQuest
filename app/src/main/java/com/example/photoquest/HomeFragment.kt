@@ -20,7 +20,7 @@ import retrofit2.Response
 
 class HomeFragment : Fragment() {
 
-    private val accessKey = "OhkF0RF7HgKfar3OMl4G5AierX0q8_tdOjn-rkPODL4"
+    private val accessKey = "ACCESS_KEY"
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: PhotosAdapter
     private var isLoading = false
