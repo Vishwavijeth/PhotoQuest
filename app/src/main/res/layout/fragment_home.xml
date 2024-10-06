@@ -5,13 +5,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/text_photoquest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="@string/PhotoQuest"/>
+
+    <TextView
+        android:id="@+id/tagLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="18dp"
+        app:layout_constraintTop_toBottomOf="@id/text_photoquest"
+        app:layout_constraintBottom_toTopOf="@id/recyclerView"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="@string/search_discover"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:paddingTop="25dp"
+        android:layout_height="0dp"
         android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/text_photoquest"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         tools:itemCount="10"
         tools:listitem="@layout/item_photo" />

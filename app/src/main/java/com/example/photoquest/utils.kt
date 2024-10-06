@@ -33,9 +33,26 @@ data class UnsplashResponse(
 
 data class Photo(
     val id: String,
-    val urls: Urls
+    val description: String?,
+    val urls: Urls,
+    val user: User,
+    val isFavorite: Boolean = false
+)
+
+data class User(
+    val name: String
 )
 
 data class Urls(
     val regular: String
 )
+
+data class Favorite(
+    val userId: String = "",
+    val imageUrl: String = "",
+    val userName: String = "",
+    val description: String = "",
+    val timestamp: Long = System.currentTimeMillis()
+){
+    constructor() : this("", "", "", "", System.currentTimeMillis())
+}

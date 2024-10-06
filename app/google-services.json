@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "446760808",
+    "project_id": "photoquest-87636",
+    "storage_bucket": "photoquest-87636.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446760808:android:376f86bc6a03049753f8dd",
+        "android_client_info": {
+          "package_name": "com.example.photoquest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446760808-thdr44jaedr94k77nmo9pvba0u8poccv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxQpKLsscINUza1MHTsMzoSQ0bcWPTBZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446760808-thdr44jaedr94k77nmo9pvba0u8poccv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
